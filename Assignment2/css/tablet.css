@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+  .text_title {
+    display: none;
+  }
+
+  .layout_all {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .da {
+    width: 100%;
+  }
+
+  .da_layout {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cv > h5 {
+    font-size: 12px;
+  }
+
+  .outlay {
+    font-size: 12px;
+  }
+
+  .outlay span {
+    margin-top: 1em;
+  }
+
+  .outlay p {
+    font-size: 12px;
+  }
+
+  .outlay i {
+    margin: 0;
+  }
+
+  .outlay > div {
+    display: block;
+  }
+
+  .outlay {
+    align-items: flex-start;
+  }
+}
